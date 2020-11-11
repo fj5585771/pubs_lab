@@ -5,5 +5,5 @@ class Pub:
         self.drinks = []
         
 
-    # def update_till(self, wallet):
-    #     self.till -= wallet
+    def update_till(self, drink_price):
+        self.till += drink_price

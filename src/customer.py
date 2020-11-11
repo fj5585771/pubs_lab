@@ -3,6 +3,7 @@ class Customer:
         self.name  = name
         self.wallet = wallet
 
+#function that allows a customer to pay for a drink and amends the value of their wallet
     def pay_for_drink(self, price):
         self.wallet -= price
 

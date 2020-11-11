@@ -1,6 +1,9 @@
 class Pub:
-    def __init__(self, name, till, customer):
+    def __init__(self, name, till):
         self.name = name
         self.till = till
         self.drinks = []
-        self.customer = customer
+        
+
+    # def update_till(self, wallet):
+    #     self.till -= wallet

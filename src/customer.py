@@ -3,4 +3,5 @@ class Customer:
         self.name  = name
         self.wallet = wallet
 
-#comment
+    def pay_for_drink(self):
+        pass

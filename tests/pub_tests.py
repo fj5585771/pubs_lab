@@ -6,4 +6,4 @@ from src.customer import Customer
 
 class TestPub(unittest.TestCase):
     def setUp(self):
-        pass
+        self.pub = Pub("The Wee Dram", 1000, 1)

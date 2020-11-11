@@ -10,4 +10,4 @@ class TestCustomer(unittest.TestCase):
         self.assertEqual(self.customer.name, "Fraser")
 
     def test_customer_has_wallet_value(self):
-        pass
+        self.assertEqual(self.customer.wallet, 50)

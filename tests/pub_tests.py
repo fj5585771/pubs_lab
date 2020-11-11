@@ -1,6 +1,6 @@
 import unittest
 from src.pub import Pub
-from src.drinks import Drinks
+from src.drink import Drink
 from src.customer import Customer
 
 

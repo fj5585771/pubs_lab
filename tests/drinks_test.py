@@ -1,6 +1,6 @@
 import unittest
-from src.drinks import Drinks
+from src.drink import Drink
 
-class TestDrinks(unittest.TestCase):
+class TestDrink(unittest.TestCase):
     def setUp(self):
         pass

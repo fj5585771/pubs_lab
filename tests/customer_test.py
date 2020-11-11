@@ -1,6 +1,6 @@
 import unittest
 from src.customer import Customer
-from src.drinks import Drink
+from src.drink import Drink
 
 class TestCustomer(unittest.TestCase):
     def setUp(self):

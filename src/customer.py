@@ -1,7 +1,8 @@
 class Customer:
-    def __init__(self, name, wallet):
+    def __init__(self, name, wallet, age):
         self.name  = name
         self.wallet = wallet
+        self.age = age 
 
 #function that allows a customer to pay for a drink and amends the value of their wallet
     def pay_for_drink(self, price):

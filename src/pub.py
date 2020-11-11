@@ -1,5 +1,5 @@
 class Pub:
-    def __init__(self, name, till, drinks, customer):
+    def __init__(self, name, till, customer):
         self.name = name
         self.till = till
         self.drinks = []
